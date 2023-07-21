@@ -9,9 +9,11 @@
                              VerticalOptions="Center">
 
             <Button Text="My button"
+                    AutomationId="buttonAutomationId"
                     SemanticProperties.Description="This is the semantic properties description for the Button"
                     SemanticProperties.Hint="This is the semantic properties hint for the Button" />
             <Picker Title="My picker"
+                    AutomationId="pickerAutomationId"
                     SemanticProperties.Description="This is the semantic properties description for the Picker"
                     SemanticProperties.Hint="This is the semantic properties hint for the Picker">
                 <Picker.ItemsSource>
